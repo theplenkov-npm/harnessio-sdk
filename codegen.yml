@@ -1,0 +1,6 @@
+schema: harness/schema.json
+generates:
+  sdk.ts:
+    plugins:
+      - typescript
+      - typescript-graphql-request
