@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnessio_sdk_1691327092381-push-trigger-input-set
+  identifier: Build_harnessio_sdk_1691327092381pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harnessio_sdk_1691327092381
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
