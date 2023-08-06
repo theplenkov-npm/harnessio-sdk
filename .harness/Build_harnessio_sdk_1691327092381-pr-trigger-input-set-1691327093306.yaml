@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnessio_sdk_1691327092381-pr-trigger-input-set
+  identifier: Build_harnessio_sdk_1691327092381prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harnessio_sdk_1691327092381
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
